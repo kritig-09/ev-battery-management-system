@@ -30,7 +30,7 @@ This project uses the **Battery and Heating Data in Real Driving Cycles** datase
 
 ---
 
-# 📊 Battery Health Dashboard
+# 📊 Battery Monitoring Dashboard
 
 ### State of Charge (SOC) over Time
 ![SOC Graph](soc_graph.png)
