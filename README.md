@@ -1,6 +1,9 @@
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
+
 # EV Battery Management System (BMS) Simulation
 
-## Problem Statement
+## 🔋 Problem Statement
 Electric Vehicle batteries require continuous monitoring of State of Charge (SOC) and safety parameters to prevent failures like overheating or voltage extremes. This project simulates a core BMS module by analyzing real-world EV driving data.
 
 ## Dataset
@@ -15,7 +18,7 @@ Real-world EV driving data from "Battery and Heating Data in Real Driving Cycles
 - Tracks voltage and temperature ranges across the trip
 - Logs SOC/voltage/temperature data over time for visualization
 
-## Battery Health Dashboard
+## 📊 Battery Health Dashboard
 
 ### State of Charge (SOC) over Time
 ![SOC Graph](soc_graph.png)
@@ -54,9 +57,14 @@ To verify fault detection logic works correctly, the temperature threshold was t
 - Temperature safe limit: 45°C
 
 ## Tech Stack
-- C++ (file I/O, string parsing, data processing)
+| Component | Details |
+|-----------|---------|
+| Language | C++ |
+| Data Source | Real-world EV driving data (TU Munich, Kaggle) |
+| Core Method | Coulomb Counting for SOC estimation |
+| Output | Terminal-based real-time simulation |
 
-## How to Run
+## ⚙️ How to Run
 1. Clone this repository
 2. Ensure TripA01-selected-columns.csv is in the same folder as main.cpp
 3. Compile: g++ main.cpp -o main
